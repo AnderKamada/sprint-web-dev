@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+
+}
+
+body {
+    color: #fff;
+    background: rgba(0, 191, 255, 0.4) url(../image/Salesforce.com_logo.svg.png) no-repeat center center;
+    height: 100vh;
+    font-size: 62.5%;
+}
+
+body > login > h1, p {
+    padding: 20px;
+    color: #000;
+}
+
+body > login > h1 {
+    font-weight:550 ;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+body > login > section {
+    display: flex;
+    flex-direction: column;
+}
+
+body > login > section > p {
+    font-weight: 450;
+    font-size: 1.7rem; 
+    flex: 1;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.85);
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px;
+}
+
+@media screen and (max-width: 760px) {
+    body{
+        background: rgba(0, 191, 255, 0.4);
+    }
+
+    body > login > section {
+        flex-direction: column;
+    }
+}
